@@ -1,15 +1,19 @@
 .apresentacao {
 
     height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(31, 90, 138);
   
-    background-image: url('/Images/logo.jpg');
-    background-size: cover;
+    background-image: url('/Images/Folder.jpg');
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
-}
 
-.logo{
+    color: white;
 
-    align-items: center;
+    text-align: center;
 
 }
