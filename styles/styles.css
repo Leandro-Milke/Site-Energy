@@ -7,7 +7,7 @@
 
     background-color: rgb(31, 90, 138);
   
-    background-image: url('./images/Folder.jpg');
+    background-image: url('../images/Folder.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
