@@ -1,0 +1,15 @@
+.apresentacao {
+
+    height: 100vh;
+  
+    background-image: url('/Images/logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo{
+
+    align-items: center;
+
+}
