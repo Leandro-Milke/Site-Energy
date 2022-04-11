@@ -1,19 +1,121 @@
-.apresentacao {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    height: 100vh;
+html,body{
+    overflow-x: hidden;
+    font-family: Open sans, sans-serif;
+}
 
-    display: flex;
+.header{
+
+    display: flex;    
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+    margin: 0% 0%;
+    min-height: 150px;
+    background-color: white;
+   
+}
+
+.logo{
     align-items: center;
+    width: 10%;
+}
 
-    background-color: rgb(31, 90, 138);
-  
-    background-image: url('../images/Folder.jpg');
-    background-size:contain;
+.menu{
+    width: 90vw;
+    flex-direction: column;
+
+}
+
+.menu-top{
+    height: 50%; 
+    display: flex;
+    justify-content:center; 
+    align-items: flex-end;
+}
+
+.menu-bottom{
+    height: 50%;
+    display: flex;
+    justify-content:center; 
+    
+}
+
+.menu nav {
+    position: absolute; 
+    
+}
+.menu nav ul li {
+    float: left;    
+    margin: 1.5em 1.8em; 
+    font-size: 1.2em; 
+    font-family: 'verdana'; 
+    list-style: none;
+}
+.menu h4 {
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 1em;
+    color: #bbb;
+    margin-right: 5vw;
+}
+.menu nav ul li a {
+    text-decoration: none; 
+    font-weight: bold;
+    margin-right: 15px;
+    color: rgba(175, 26, 26, 0.651);
+}
+
+.container-alterado{
+    margin-top: 150px;   
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px 0px; 
+    width: 100vw;
+   
+}
+
+.container-informacao{
+    width: 100vw;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/painel.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
 
-    color: white;
+.container-formulario{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
 
-    text-align: center;
+.formulario-contato{
+    width: 40vw;
+}
 
+.formulario-contato h2{
+    font-size: 2em;
+    font-style: italic;
+    color: rgba(10, 10, 71, 0.712);
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.informacao-contato{
+    width: 40vw;
+}
+
+.footer{    
+    min-height: 10vh;
 }
