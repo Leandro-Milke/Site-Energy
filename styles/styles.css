@@ -5,8 +5,9 @@
 }
 
 html,body{
-   
+    overflow-x: hidden;
     font-family: Open sans, sans-serif;
+    display: block;
 }
 
 .header{
@@ -16,33 +17,43 @@ html,body{
     width: 100vw;
     top: 0%;
     margin: 0% 0%;
+    height: calc(100vh - 30vw);
     min-height: 150px;
+
     background-color: white;
    
 }
 
 .logo{
     align-items: center;
-    width: 10%;
+    width: 15vw;
+    height: 25vh;
+    min-width: 130px;
 }
 
 .menu{
     width: 90vw;
     flex-direction: column;
-
+    background-color: white;
 }
 
 .menu-top{
     height: 50%; 
     display: flex;
+    flex-wrap: wrap;
     justify-content:center; 
     align-items: flex-end;
+}
+
+.Contato{
+    display:flex;
 }
 
 .menu-bottom{
     height: 50%;
     display: flex;
     justify-content:center; 
+    background-color: white;
     
 }
 
@@ -82,8 +93,8 @@ html,body{
 
 .container-informacao{
     width: 100vw;
-    height: 80vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/painel.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/painel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -110,6 +121,10 @@ html,body{
 .formulario{
     display: flex;
     flex-wrap: wrap;
+}
+
+.form-group{
+    margin: 0px 10px;
 }
 
 .informacao-contato{
