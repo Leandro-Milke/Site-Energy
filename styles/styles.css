@@ -43,6 +43,7 @@ html,body{
   
   #navbar a {
     color: #c90808;
+    font-size: 1.5em;
   }
   
   #navbar a:hover {
@@ -62,8 +63,8 @@ html,body{
   }
   
   .navbar-brand span {
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 900;
+    font-size: 2.5em;
     margin-left: 0.5em;
   }
   
@@ -83,7 +84,7 @@ html,body{
 
 
 
-
+/*
 
 .header{
 
@@ -107,7 +108,7 @@ html,body{
 .menu{
     width: 90vw;
     /*flex-direction: column;*/
-    background-color: white;
+  /*  background-color: white;
 }
 
 .menu-top{
@@ -153,8 +154,8 @@ html,body{
     text-decoration: none; 
     font-weight: bold;
     margin-right: 15px;
-    color: rgba(175, 26, 26, 0.651);
-}
+    color: rgba(236, 13, 13, 0.842);
+}*/
 
 .container-alterado{
     margin-top: 150px;   
@@ -174,23 +175,77 @@ html,body{
     background-position: center;
 }
 
+.Sobre-empresa{
+
+    background-color: #082D60;
+
+}
+
+.Sobre-titulo{
+    color: #fff;
+    margin: 0px 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+.Sobre-empresa p{
+    
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px 10px;
+    margin-bottom: 0;
+}
+
+.competencias h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.list-competencias{
+    color: #fff;
+    font-size: 1em;
+    padding: 0px 10px;
+}
+
+.funcionamento{
+    background-color: #082D60;
+    color: #fff;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.imagem-explicativa{
+    text-align: center;
+}
+
+.explicacao{
+    margin: 0;
+}
+
+.explicacao p{
+    margin: 0;
+    text-align: justify;
+}
+
 .container-formulario{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    background-color: #082D60;
+    color: #fff;
 }
 
-.formulario-contato{
-    width: 40vw;
-}
 
 .formulario-contato h2{
-    font-size: 2em;
+   
     font-style: italic;
-    color: rgba(10, 10, 71, 0.712);
+    color: #fff;
     margin-left: 10px;
+    padding-top: 20px;
 }
 
 .formulario{
@@ -278,7 +333,7 @@ html,body{
 }
 
 #footer-bottom i{
-    color: #c90808;
+    color: #ecd712;
 }
 
 @media (min-width: 768px){
@@ -293,5 +348,72 @@ html,body{
         border-left: 1px solid #7a7a7a;
         border-right: 1px solid #7a7a7a;
 
+    }
+
+    .Sobre-titulo{
+        color: #fff;
+        margin: 0px 50px;
+        padding-top: 50px;
+        text-align: left;
+    }
+
+    .Sobre-empresa p{
+        text-align: justify;
+        font-size: 1.2em;
+        color: #fff;
+        padding: 50px 50px;
+        margin-bottom: 0;
+    }
+
+    
+    .competencias h2{
+        color: #fff;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+    .list-competencias p{
+        color: #fff;
+        font-size: 1em;
+        padding-left: 50vw;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .formulario-contato h2{
+        font-size: 2em;
+        font-style: italic;
+        color: #fff;        
+        padding-top: 50px;
+    }
+
+    .funcionamento{
+        color: #fff;
+        background-color: #082D60;
+
+    }
+    .funcionamento h2{
+        padding: 20px 50px;
+    }
+
+    .imagem-explicativa{
+    
+        text-align: center;
+        
+    }
+    
+    .explicacao{
+        color: #fff;
+        background-color: #082D60;
+        margin: 0;
+    }
+
+    
+    .explicacao h3{
+        padding: 20px 50px;
+    }
+    .explicacao p{
+        margin: 0;
+        padding: 50px;
     }
 }
