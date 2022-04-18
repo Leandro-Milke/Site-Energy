@@ -166,14 +166,38 @@ html,body{
    
 }
 
-.container-informacao{
-    width: 100vw;
+.hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/painel.jpg);
+    /* unidade vh é relativa a janela de visualização*/
+    display: flex;
+    /*classe de conteiner*/
+    align-items: center;
+    /*filhos centrallizados*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/painel.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+  }
+  
+  .hero-title {
+    background-color: rgba(55, 55, 55, 0.7);
+    text-align: center;
+    width: 100%;
+    /* largura da faixa*/
+    padding: 5% 0%;
+    /* vertical e horizontal */
+    margin-top: 240px;
+  }
+  .hero-title h1 {
+    /* h1 dentro do hero-title*/
+    font-family: 'PT Serif', serif;
+    color: #ffcc33;
+    font-size: 4.5em;
+  }
+  .hero-title h2 {
+    /* h2 dentro do hero-title*/
+    color: #ccff33;
+  }  
 
 .Sobre-empresa{
 
@@ -349,6 +373,39 @@ html,body{
         border-right: 1px solid #7a7a7a;
 
     }
+
+     
+      .hero {
+        height: 100vh;
+        /* unidade vh é relativa a janela de visualização*/
+        display: flex;
+        /*classe de conteiner*/
+        align-items: center;
+        /*filhos centrallizados*/
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/painel.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .hero-title {
+        background-color: rgba(55, 55, 55, 0.7);
+        text-align: center;
+        width: 100%;
+        /* largura da faixa*/
+        padding: 5% 0%;
+        /* vertical e horizontal */
+        margin-top: 240px;
+      }
+      .hero-title h1 {
+        /* h1 dentro do hero-title*/
+        color: #ffcc33;
+        font-size: 4.5em;
+      }
+      .hero-title h2 {
+        /* h2 dentro do hero-title*/
+        color: #ccff33;
+      }  
 
     .Sobre-titulo{
         color: #fff;
