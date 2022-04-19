@@ -10,6 +10,13 @@ html,body{
     display: block;
 }
 
+/*ajuste ancoras para nao ficar sobreposta ao menu*/
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top: 180px;
+}
 
 
 .bg-primary-color{
@@ -39,6 +46,7 @@ html,body{
   /* NAVBAR */
   #navbar {
     border-bottom: 1px solid #7a7a7a;
+    z-index: 999;
   }
   
   #navbar a {
@@ -190,7 +198,7 @@ html,body{
   }
   .hero-title h1 {
     /* h1 dentro do hero-title*/
-    font-family: 'PT Serif', serif;
+    
     color: #ffcc33;
     font-size: 4.5em;
   }
@@ -269,7 +277,7 @@ html,body{
     font-style: italic;
     color: #fff;
     margin-left: 10px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .formulario{
@@ -359,6 +367,7 @@ html,body{
 #footer-bottom i{
     color: #ecd712;
 }
+
 
 @media (min-width: 768px){
     #news-container {
@@ -450,7 +459,7 @@ html,body{
 
     }
     .funcionamento h2{
-        padding: 20px 50px;
+        padding: 40px 50px;
     }
 
     .imagem-explicativa{
@@ -472,5 +481,13 @@ html,body{
     .explicacao p{
         margin: 0;
         padding: 50px;
+    }
+
+    /*ajuste ancoras para nao ficar sobreposta ao menu*/
+    html{
+        scroll-behavior: smooth;
+    }
+    :target{
+        scroll-margin-top: 180px;
     }
 }
