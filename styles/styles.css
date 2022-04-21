@@ -92,7 +92,8 @@ html{
 /* MINI BANNERS */
 
   #mini-banners {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+    margin-top: 2em;
   }
   
   #mini-banners .card {
@@ -280,7 +281,7 @@ html{
 .funcionamento{
     background-color: #082D60;
     color: #fff;
-    padding: 20px 10px;
+    padding: 30px 10px;
     margin: 0;
 }
 
@@ -289,12 +290,45 @@ html{
 }
 
 .explicacao{
-    margin: 0;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.imagem-explicativa i{
+    color: #ffcc33;
+    font-size: 3em;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .explicacao p{
     margin: 0;
     text-align: justify;
+}
+
+.financiamento {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.financiamento h2{
+    text-align: left;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.financiamento-figura{
+    font-size: 4em;
+    color: #ffcc33;
+    text-align: center;
+    
+}
+
+.financiamento p{
+    color: #fff;
+    text-align: left;
+    padding: 0px 10px;
 }
 
 .container-formulario{
@@ -455,7 +489,8 @@ html{
         color: #fff;
         margin: 0px 50px;
         padding-top: 50px;
-        text-align: left;
+        /*text-align: left;*/
+        text-align: justify;
     }
 
     .Sobre-empresa p{
@@ -484,6 +519,31 @@ html{
         padding-bottom: 10px;
     }
 
+    .financiamento {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .financiamento h2{
+        text-align: left;
+        padding-left: 50px;
+        color: #fff;
+    }
+    
+    .financiamento-figura{
+        font-size: 6em;
+        color: #ffcc33;
+        text-align: center;
+    }
+    
+    .financiamento p{
+        color: #fff;
+        text-align: left;
+        padding: 0px 50px;
+        font-size: 1.5em;
+    }
+
     .formulario-contato h2{
         font-size: 2em;
         font-style: italic;
@@ -500,10 +560,11 @@ html{
         padding: 40px 50px;
     }
 
-    .imagem-explicativa{
-    
+    .imagem-explicativa i{
+        color: #ffcc33;
+        font-size: 5em;
+        padding-right: 10px;
         text-align: center;
-        
     }
     
     .explicacao{
