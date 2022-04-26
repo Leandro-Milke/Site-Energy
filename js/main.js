@@ -1,21 +1,48 @@
-// Get the container element
-var btnContainer = document.getElementById("navbar-items");
 
-// Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("a");
+//para ver salvando
 
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+// referenciando o button
+let btn = document.querySelector('#botao');
 
-    // If there's no active class
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
-    }
+// referenciando o input nome
+let nome = document.querySelector('input[name=nome]');
 
-    // Add the active class to the current/clicked button
-    this.className += " active";
-  });
+// referenciando o input email
+let email = document.querySelector('input[name=email]');
+
+// referenciando o input telefone
+let telefone = document.querySelector('input[name=telefone]');
+
+// referenciando o input arquivo
+let arquivo = document.querySelector('input[name=arquivo]');
+
+
+// verificar o clique no botão
+btn.onclick = function(){
+
+    // validar o valor, se foi digitada nova tarefa
+    if(nome.value !=="" && email.value !=="" && telefone.value !==""){
+    
+      console.log(nome.value);
+      console.log(email.value);
+      console.log(telefone.value);
+
+      let teste = nome.value;
+
+      let ajax = new XMLHttpRequest();
+
+      ajax.open('POST',`salva_bd.php`);
+
+      ajax.setRequestHeader("content-type","application/x-www-form-urlencoded");
+
+      ajax.send("nome="+teste);
+
+
+  } else{
+     
+    alert( "Os campos devem ser preenchidos" );
+     
+  }
 }
 
+//function salvar_bd()
