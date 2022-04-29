@@ -5,6 +5,6 @@
 	if ($mysqli->connect_error) {
        die('Erro de conexão!!!!: (' . $mysqli->connect_errno . ')');
     }
-    else die('Conectado');
+   // else die('Conectado');
 
 ?>

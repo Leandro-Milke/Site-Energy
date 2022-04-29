@@ -21,10 +21,16 @@ $SQL = "SELECT * FROM `contatos`";
     $SQL = "INSERT INTO `contatos` (`nome`, `email`, `telefone`, `arquivo`) VALUES ('{$nome}','{$email}','{$telefone}','{$arquivo}')";
     
     if (mysqli_query($mysqli,$SQL)=== true) {
-        die('Cadastrado');
-        
-        } 
-     else{					
+        //die('Cadastrado');
+        header("location: http://localhost:8383/Site-Energy/#orcamento");
+    } 
+    else{					
          echo mysqli_errno($mysqli);
-         }
+    }
+
+
+
+
+
+         
 ?>
