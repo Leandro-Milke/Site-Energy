@@ -10,8 +10,8 @@
 
     <title>Energy - Energia Fotovoltaica</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./styles/styles_listaOrc.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="styles/styles_listaOrc.css"/>
 </head>
 <body>
 
@@ -27,7 +27,7 @@
         if($dados == false){
             echo "erro";
         }
-        else echo "sql ok ";
+        //else echo "sql ok ";
 
         echo "<br>";
 
