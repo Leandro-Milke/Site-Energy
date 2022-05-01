@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+
+.lista-orc{
+    display: flex;
+    justify-content:space-evenly;
+
+}

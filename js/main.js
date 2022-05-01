@@ -17,7 +17,8 @@ let arquivo = document.querySelector('input[name=arquivo]');
 // verificar o clique no botão
 btn.onclick = function(e){
 
-    e.preventDefault();
+  //console.log(arquio.value);
+    //e.preventDefault();
     // validar o valor, se foi digitada nova tarefa
     if(nome.value !=="" && email.value !=="" && telefone.value !==""){
 
